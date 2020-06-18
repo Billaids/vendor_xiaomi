@@ -479,9 +479,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/ltr308_0_on_change.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ltr308_0_on_change.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_ak991x_0.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_bmi160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_bmi160_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_bmp285_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_bmp285_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_bu52053nvx_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_default_sensors.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_icm4x6xx_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_lsm6dso_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_qrd_ak991x_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_qrd_lsm6dso_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_qrd_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_qrd_tmd2725.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_stk3x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_stk3x3x_0.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_sx932x_0.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/nicobar_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/nicobar_tmd2725.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_1.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_2.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/rpr0521rs_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/rpr0521rs_0.json \
@@ -493,6 +501,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_basic_gestures.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_basic_gestures.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_bring_to_ear.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_ccd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_ccd_v2_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v2_walk.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_ccd_v3_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v3_walk.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dae.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
@@ -505,6 +515,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_heart_rate.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_heart_rate.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_mag_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal.json \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_mag_cal_legacy.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal_legacy.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_multishake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_multishake.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_pedometer.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sns_rmd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rmd.json \
@@ -519,7 +530,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sx932x_0.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd2725.json \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/config/tmx4903.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmx4903.json \
-    vendor/xiaomi/ginkgo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
